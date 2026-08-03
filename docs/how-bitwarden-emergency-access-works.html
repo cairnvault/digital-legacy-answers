@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>How does Bitwarden emergency access actually work?</title>
+<meta name="description" content="Bitwarden's Emergency Access is a request-and-wait system, not a death-verification system. Per Bitwarden's own documentation: - To grant emergency…">
+<link rel="canonical" href="https://cairnvault.github.io/digital-legacy-answers/how-bitwarden-emergency-access-works.html">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<meta name="author" content="CairnVault">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="CairnVault Research">
+<meta property="og:title" content="How does Bitwarden emergency access actually work?">
+<meta property="og:description" content="Bitwarden's Emergency Access is a request-and-wait system, not a death-verification system. Per Bitwarden's own documentation: - To grant emergency…">
+<meta property="og:url" content="https://cairnvault.github.io/digital-legacy-answers/how-bitwarden-emergency-access-works.html">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="How does Bitwarden emergency access actually work?">
+<meta name="twitter:description" content="Bitwarden's Emergency Access is a request-and-wait system, not a death-verification system. Per Bitwarden's own documentation: - To grant emergency…">
+<style>:root{--ink:#1c1a19;--mute:#5d5753;--rule:#e2ddd8;--paper:#fbf9f7;--accent:#6b2434;--accentbg:#f6eeef}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);
+  font:17px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif}
+.wrap{max-width:44rem;margin:0 auto;padding:0 1.25rem 5rem}
+header.masthead{border-bottom:1px solid var(--rule);margin-bottom:2.5rem;padding:1.1rem 0}
+header.masthead .wrap{padding-bottom:0}
+.brand{font-weight:700;letter-spacing:.02em;color:var(--accent);text-decoration:none;font-size:1rem}
+.brand span{color:var(--mute);font-weight:400}
+nav.sub{font-size:.9rem;margin-top:.35rem}
+nav.sub a{color:var(--mute);margin-right:1rem}
+h1{font-size:2.05rem;line-height:1.2;letter-spacing:-.02em;margin:0 0 1rem}
+h2{font-size:1.4rem;line-height:1.25;margin:2.8rem 0 .9rem;padding-top:.4rem;border-top:1px solid var(--rule)}
+h3{font-size:1.12rem;margin:2rem 0 .6rem}
+h4{font-size:1rem;margin:1.4rem 0 .5rem}
+p,li{margin:0 0 1rem}
+ul,ol{padding-left:1.3rem}
+a{color:var(--accent)}
+a:hover{text-decoration:none}
+blockquote{margin:1.2rem 0;padding:.7rem 1.1rem;border-left:3px solid var(--accent);
+  background:var(--accentbg);color:#3d3532;border-radius:0 3px 3px 0}
+blockquote p:last-child{margin-bottom:0}
+hr{border:0;border-top:1px solid var(--rule);margin:2.5rem 0}
+code{background:#efeae5;padding:.1em .35em;border-radius:3px;font-size:.88em}
+.tablewrap{overflow-x:auto;margin:1.4rem 0;-webkit-overflow-scrolling:touch}
+table{border-collapse:collapse;width:100%;font-size:.92rem;min-width:30rem}
+th,td{border:1px solid var(--rule);padding:.5rem .65rem;text-align:left;vertical-align:top}
+th{background:#f2ede8;font-weight:600}
+.lede{font-size:1.12rem;color:var(--mute)}
+footer.foot{margin-top:3.5rem;padding-top:1.5rem;border-top:1px solid var(--rule);
+  font-size:.9rem;color:var(--mute)}
+footer.foot a{color:var(--accent)}
+.cta{display:block;margin:2.5rem 0;padding:1.1rem 1.25rem;background:#fff;
+  border:1px solid var(--rule);border-left:3px solid var(--accent);border-radius:0 4px 4px 0}
+.cta p:last-child{margin-bottom:0}
+.cta h2{border:0;margin:0 0 .5rem;padding:0;font-size:1.1rem}
+@media (max-width:600px){body{font-size:16px}h1{font-size:1.65rem}.wrap{padding:0 1rem 3.5rem}}</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"QAPage","mainEntity":{"@type":"Question","name":"How does Bitwarden emergency access actually work?","text":"How does Bitwarden emergency access actually work?","answerCount":1,"acceptedAnswer":{"@type":"Answer","text":"Bitwarden's Emergency Access is a request-and-wait system, not a death-verification system. Per Bitwarden's own documentation: - To grant emergency access, you (the owner) need a paid plan — Premium, or membership in a paid Families/Teams/Enterprise organization. - To receive it, your contact only needs a Bitwarden account, and it can be free: \"Anyone with a free or premium Bitwarden account on the same Bitwarden server can be designated as a trusted emergency contact.\" - You set a wait time, with a documented minimum: \"The minimum wait time is one day.\" - During that wait window, you can approve or deny the request manually at any point. - If you do nothing, access is granted automatically once the wait time elapses. What actually triggers release, in practice: your emergency contact logs into their own Bitwarden account, opens the Emergency Access section, and clicks \"request access\" against your account. That starts the clock. There is no death certificate, ID check, or third-party attestation anywhere in the flow — it is functionally identical whether you're deceased, in a coma, or just didn't see a notification email while on a two-week trip. What your contact receives once access is granted is read access to your entire vault (and, depending on settings, the ability to take it over) — not a curated set of instructions. It's a credential dump, delivered on a timer, with no third-party review at any point. What we could not verify: Bitwarden's documented maximum wait time. The one-day minimum is confirmed directly; community forum discussion (not authoritative) suggests it's an open numeric field rather than a fixed dropdown, which would mean there's no hard maximum — but that specific point rests on secondary discussion, not Bitwarden's own primary documentation, so treat it as unconfirmed.","url":"https://cairnvault.github.io/digital-legacy-answers/how-bitwarden-emergency-access-works.html"}},"datePublished":"2026-08-03","dateModified":"2026-08-03","license":"https://creativecommons.org/licenses/by/4.0/","isAccessibleForFree":true,"inLanguage":"en","author":{"@type":"Organization","name":"CairnVault","url":"https://cairnvault.app","description":"Encrypted digital-legacy planning: a plan your family can open when you die, that no one — including us — can read while you are alive."},"publisher":{"@type":"Organization","name":"CairnVault","url":"https://cairnvault.app","description":"Encrypted digital-legacy planning: a plan your family can open when you die, that no one — including us — can read while you are alive."}}</script>
+</head>
+<body>
+<header class="masthead"><div class="wrap">
+  <a class="brand" href="https://cairnvault.github.io/digital-legacy-answers/">CairnVault <span>Research</span></a>
+  <nav class="sub"><a href="https://cairnvault.github.io/digital-legacy-answers/">All 15 questions</a><a href="https://cairnvault.github.io/digital-legacy-teardown/">The teardown</a><a href="https://github.com/cairnvault/digital-legacy-answers">GitHub</a><a href="https://cairnvault.app">CairnVault</a></nav>
+</div></header>
+<div class="wrap">
+<article>
+<h1>How does Bitwarden emergency access actually work?</h1>
+<p>Bitwarden&#39;s Emergency Access is a request-and-wait system, not a death-verification system. Per
+Bitwarden&#39;s own documentation:</p>
+<ul>
+<li><strong>To grant emergency access, you (the owner) need a paid plan</strong> — Premium, or membership in a
+paid Families/Teams/Enterprise organization.</li>
+<li><strong>To receive it, your contact only needs a Bitwarden account, and it can be free</strong>: &quot;Anyone with a
+free or premium Bitwarden account on the same Bitwarden server can be designated as a trusted
+emergency contact.&quot; <a href="https://bitwarden.com/help/emergency-access/">Source</a></li>
+<li><strong>You set a wait time</strong>, with a documented minimum: &quot;The minimum wait time is one day.&quot;
+<a href="https://bitwarden.com/help/add-and-manage-trusted-emergency-contacts/">Source</a></li>
+<li>During that wait window, you can approve or deny the request manually at any point.</li>
+<li><strong>If you do nothing</strong>, access is granted automatically once the wait time elapses.</li>
+</ul>
+<p>What actually triggers release, in practice: your emergency contact logs into their own Bitwarden
+account, opens the Emergency Access section, and clicks &quot;request access&quot; against your account. That
+starts the clock. There is no death certificate, ID check, or third-party attestation anywhere in
+the flow — it is functionally identical whether you&#39;re deceased, in a coma, or just didn&#39;t see a
+notification email while on a two-week trip.</p>
+<p>What your contact receives once access is granted is <strong>read access to your entire vault</strong> (and,
+depending on settings, the ability to take it over) — not a curated set of instructions. It&#39;s a
+credential dump, delivered on a timer, with no third-party review at any point.</p>
+<p><strong>What we could not verify:</strong> Bitwarden&#39;s documented maximum wait time. The one-day minimum is
+confirmed directly; community forum discussion (not authoritative) suggests it&#39;s an open numeric
+field rather than a fixed dropdown, which would mean there&#39;s no hard maximum — but that specific
+point rests on secondary discussion, not Bitwarden&#39;s own primary documentation, so treat it as
+unconfirmed.</p>
+<p class="lede" style="font-size:.95rem">
+    ← <a href="https://cairnvault.github.io/digital-legacy-answers/can-my-spouse-access-my-password-manager-if-i-die.html">Can my spouse access my password manager if I die?</a><br>
+    → <a href="https://cairnvault.github.io/digital-legacy-answers/should-i-write-my-passwords-down-for-my-family.html">Should I write my passwords down for my family?</a><br>
+    <a href="https://cairnvault.github.io/digital-legacy-answers/">All fifteen questions</a>
+  </p>
+</article>
+<div class="cta">
+  <h2>Who wrote this, and why you should check it</h2>
+  <p>We are <a href="https://cairnvault.app">CairnVault</a>. We build an encrypted digital-legacy plan — your family
+  can open it when you die, and nobody, including us, can read it while you are alive. So we are not
+  a neutral party on this subject, which is precisely why every claim above links to somebody else's
+  documentation rather than to ours.</p>
+  <p>If we have got something wrong, <a href="https://github.com/cairnvault/digital-legacy-answers/issues/new">tell us</a> — we correct the text and
+  record the correction with a date. We have already had to retract several claims from our own
+  earlier materials.</p>
+  <p><a href="https://cairnvault.github.io/digital-legacy-teardown/">Read the full teardown of every digital-legacy service</a>
+  · <a href="https://youtu.be/AHOkf6vYjrE" target="_blank" rel="noopener">Watch the 4-minute explainer</a>
+  · <a href="https://cairnvault.app">cairnvault.app</a></p>
+</div>
+<footer class="foot">
+  <p>Published by <a href="https://cairnvault.app">CairnVault</a> under
+     <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC&nbsp;BY&nbsp;4.0</a> —
+     republish it, quote it, correct it. Attribution and a link back are all we ask.</p>
+  <p>Vendor terms and state statutes change. Re-verify before relying on any of this.
+     <strong>Not legal advice.</strong></p>
+</footer>
+</div>
+</body>
+</html>
