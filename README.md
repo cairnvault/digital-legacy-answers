@@ -9,7 +9,7 @@ something, the answer says so instead of guessing.
 including anything of ours — to get the real answer.
 
 Read the companion piece: [**a sourced teardown of every digital-legacy service, password manager
-and platform legacy-contact feature**](https://cairnvault.github.io/digital-legacy-teardown/).
+and platform legacy-contact feature**](https://research.cairnvault.app/digital-legacy-teardown/).
 
 *Published by [CairnVault](https://cairnvault.app), who build a product in this category and are
 therefore not a neutral party — which is exactly why every claim below links to somebody else's
