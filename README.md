@@ -1,15 +1,16 @@
-# What happens to your digital life when you die — 15 questions, answered from primary sources
+# What happens to your digital life when you die — 30 questions, answered from primary sources
 
-Fifteen questions people actually ask about death and online accounts, each answered once, properly,
+Thirty questions people actually ask about death and online accounts, each answered once, properly,
 with a link to the page the answer came from. Every claim was checked against the vendor's,
-regulator's, or legislature's own documentation on **2–3 August 2026**. Where we could not verify
+regulator's, or legislature's own documentation — questions 1–15 on **2–3 August 2026**, questions 16–30 on **6–7 August 2026**. Where we could not verify
 something, the answer says so instead of guessing.
 
 **Each answer is written to be complete on its own.** You should not have to click anything —
 including anything of ours — to get the real answer.
 
 Read the companion piece: [**a sourced teardown of every digital-legacy service, password manager
-and platform legacy-contact feature**](https://research.cairnvault.app/digital-legacy-teardown/).
+and platform legacy-contact feature**](https://research.cairnvault.app/digital-legacy-teardown/),
+or take the same comparison as [**an open dataset in JSON and CSV**](https://research.cairnvault.app/digital-legacy-teardown/dataset.html).
 
 *Published by [CairnVault](https://cairnvault.app), who build a product in this category and are
 therefore not a neutral party — which is exactly why every claim below links to somebody else's
@@ -23,23 +24,36 @@ Estate law is state-specific and fact-specific; talk to an attorney about your o
 
 ## The questions
 
-1. [What happens to my Google account when I die?](#1-what-happens-to-my-google-account-when-i-die)
-2. [What happens to my Apple/iCloud account when I die?](#2-what-happens-to-my-appleicloud-account-when-i-die-legacy-contact--and-what-it-does-not-cover)
-3. [What happens to my Facebook/Instagram account when I die?](#3-what-happens-to-my-facebookinstagram-account-when-i-die)
-4. [Can my spouse access my password manager if I die?](#4-can-my-spouse-access-my-password-manager-if-i-die)
-5. [How does Bitwarden emergency access actually work?](#5-how-does-bitwarden-emergency-access-actually-work--and-what-triggers-it)
-6. [Should I write my passwords down for my family?](#6-should-i-write-my-passwords-down-for-my-family)
-7. [Is it legal for my family to log into my accounts after I die?](#7-is-it-legal-for-my-family-to-log-into-my-accounts-after-i-die-us-centric-rufadaa)
-8. [Does my will cover my digital assets?](#8-does-my-will-cover-my-digital-assets)
-9. [What happens to my crypto if I die?](#9-what-happens-to-my-crypto-if-i-die)
-10. [What happens to my subscriptions and recurring charges when I die?](#10-what-happens-to-my-subscriptions-and-recurring-charges-when-i-die)
-11. [How do I make sure my family can find my accounts without exposing them while I'm alive?](#11-how-do-i-make-sure-my-family-can-find-my-accounts-without-exposing-them-while-im-alive)
-12. [What is a digital executor and do I need one?](#12-what-is-a-digital-executor-and-do-i-need-one)
-13. [What happens to my photos when I die?](#13-what-happens-to-my-photos-when-i-die)
-14. [My parent died and I can't get into their phone/accounts — what can I actually do?](#14-my-parent-died-and-i-cant-get-into-their-phoneaccounts--what-can-i-actually-do)
-15. [What happens to my password manager account if the company shuts down?](#15-what-happens-to-my-password-manager-account-if-the-company-shuts-down)
-
----
+1. What happens to my Google account when I die?
+2. What happens to my Apple/iCloud account when I die? (Legacy Contact — and what it does NOT cover)
+3. What happens to my Facebook/Instagram account when I die?
+4. Can my spouse access my password manager if I die?
+5. How does Bitwarden emergency access actually work — and what triggers it?
+6. Should I write my passwords down for my family?
+7. Is it legal for my family to log into my accounts after I die? (US-centric; RUFADAA)
+8. Does my will cover my digital assets?
+9. What happens to my crypto if I die?
+10. What happens to my subscriptions and recurring charges when I die?
+11. How do I make sure my family can find my accounts without exposing them while I'm alive?
+12. What is a digital executor and do I need one?
+13. What happens to my photos when I die?
+14. My parent died and I can't get into their phone/accounts — what can I actually do?
+15. What happens to my password manager account if the company shuts down?
+16. What happens to my PayPal account when I die?
+17. What happens to my Venmo account when I die?
+18. What happens to my LinkedIn profile when I die?
+19. What happens to my X (Twitter) account when I die?
+20. What happens to my Netflix account when I die?
+21. What happens to my Dropbox files when I die?
+22. Can I leave my Steam or Xbox game library to someone when I die?
+23. What happens to a domain name I own when I die?
+24. Is it a crime for my family to log into my accounts with my password after I die?
+25. Does listing my passwords in my will make them public record?
+26. What happens to crypto I hold on an exchange like Coinbase or Kraken when I die?
+27. What happens to my airline miles and hotel points when I die?
+28. What happens to my bank account when I die — and what about the 2FA code that goes to a phone no one can unlock?
+29. What happens to my Amazon account — Kindle books, Prime, everything — when I die?
+30. What happens to my Spotify account when I die?
 
 ## 1. What happens to my Google account when I die?
 
@@ -550,6 +564,447 @@ in this research pass makes a forward-looking promise about it. The only reliabl
 found evidence for is exporting your own vault proactively, before you'd ever need to rely on the
 company's behavior in a shutdown scenario.
 
+## 16. What happens to my PayPal account when I die?
+
+Nothing happens automatically — PayPal will only act on a deceased account at the request of the
+authorized executor or administrator of the estate, and only after reviewing specific documents. Per
+PayPal's own help article: "we're only able to take instructions from the authorized executor or
+administrator of the deceased estate to close a PayPal account previously held by a deceased person.
+If you wish to close the account of a loved one, please contact the relevant executor or
+administrator."
+[Source](https://www.paypal.com/us/cshelp/article/how-do-i-close-the-paypal-account-of-a-deceased-relative-help220)
+
+The executor must submit, by email: a cover sheet identifying the account and requesting closure, a
+death certificate, a government-issued photo ID, "legal documentation or a copy of the will that
+identifies the executor of the estate" (or state-issued documentation if there's no will), and an IRS
+Form W-9 for the estate. Documents go to **deceasedaccounts@paypal.com** or a PayPal P.O. box in
+Omaha, Nebraska; mailed originals are destroyed after review and cannot be returned.
+
+Any remaining balance is disbursed one of two ways: PayPal issues a check "in the name of the
+deceased account holder" (ownership of the money doesn't change hands — it's still legally the
+deceased's funds going into the estate), or, if the requestor already has access to the bank account
+linked to the PayPal account, PayPal transfers the balance there directly. PayPal does not hand over
+login access or a password under any circumstance — only account closure and fund disbursement.
+
+**What we could not verify:** how long PayPal's review typically takes once documents are received;
+the help page states documents will be reviewed but does not give a service-level timeframe.
+
+---
+
+## 17. What happens to my Venmo account when I die?
+
+Like PayPal (its parent company), Venmo will not transfer ownership of an account to anyone — it
+will only close it. Venmo's own help article is direct: "We can't give access to or transfer
+ownership of a Venmo account to anyone other than the original account holder."
+[Source](https://help.venmo.com/cs/articles/how-to-close-the-venmo-account-of-a-deceased-relative-vhel371)
+
+At minimum, closing the account requires "a copy of the Death Certificate for the deceased
+individual." If there's money or crypto in the account, Venmo may also ask for a valid
+government-issued photo ID from the person contacting them, proof of address (so a check can be
+mailed if there's a balance), and legal documentation showing you're authorized to act for the
+estate — a probate court order appointing an executor, estate administrator paperwork, or Letters of
+Administration. If money is being disbursed, Venmo also wants an IRS Form W-9 for the estate.
+Requests go through Venmo's in-app chat support (Settings → Get Help → Chat With Us), not email —
+Venmo specifically asks that documents not be emailed directly, and instead be uploaded through a
+secure link an agent provides.
+
+If the deceased had a Venmo Credit Card (issued by Synchrony Bank, not Venmo itself), that card has
+to be closed separately, and separately from the Venmo account: Synchrony runs its own online
+deceased-notification form.
+
+**What we could not verify:** the specific timeline for Venmo's review process, and exactly how
+Venmo disburses a remaining balance if there's no linked bank account still active — the help article
+mentions issuing a check but doesn't spell out the full mechanics for every scenario.
+
+---
+
+## 18. What happens to my LinkedIn profile when I die?
+
+LinkedIn offers two different, mutually exclusive paths, and which one applies depends on who's
+asking and what they can prove. Per LinkedIn's own help page: "If you're authorized to act on behalf
+of a deceased member, and have the required information and documentation, you can request to close
+their account." Anyone without that authorization — a colleague, a friend, a distant relative — can
+instead "report a member as deceased and we will memorialize the profile."
+[Source](https://www.linkedin.com/help/linkedin/answer/a1336663/memorialize-or-close-the-account-of-a-deceased-member)
+
+**Closure** deletes the account; LinkedIn states this "can take up to 30 days to completely delete
+the data from the system" once approved. To request it, LinkedIn requires acceptable legal
+documentation — "Letters of Administration issued by a court," "Letters of Testamentary issued by a
+court," "Letters of Representation issued by a court," or another court order naming the requestor as
+authorized representative — plus the member's full name, their profile URL, your relationship to
+them, their email, the date of death, and a link to an obituary or news article confirming it.
+
+**Memorialization** requires none of that: anyone can report the death, and LinkedIn adds a
+memorial marker without deleting anything or needing legal paperwork. This is the path for people who
+aren't the executor but want the profile to stop showing up as active.
+
+Neither path gives anyone login access — LinkedIn's process is exclusively about closing or
+memorializing, never handing over credentials.
+
+**What we could not verify:** what a memorialized LinkedIn profile actually looks like to visitors
+(what changes, what stays the same) — the source page covers the request process, not the resulting
+visual state, in the level of detail Meta documents for Facebook.
+
+---
+
+## 19. What happens to my X (Twitter) account when I die?
+
+X will deactivate a deceased user's account on request, but — like every platform in this set — will
+never hand over login access. X's own help page states it plainly: "In the event of the death of a X
+user, we can work with a person authorized to act on behalf of the estate, or with a verified
+immediate family member of the deceased to have an account deactivated." And separately, in its own
+sentence: "We are unable to provide account access to anyone regardless of their relationship to the
+deceased."
+[Source](https://help.x.com/en/rules-and-policies/contact-x-about-a-deceased-family-members-account)
+
+The process starts with a request form; X then emails back asking for more detail, including
+"information about the deceased, a copy of your ID, and a copy of the deceased's death certificate."
+X says this step exists "to prevent false and/or unauthorized reports," and that the documentation
+"will remain confidential and will be removed once we've reviewed it."
+
+There's a second, less-discussed path on the same page for a living but incapacitated user: X will
+work with someone "authorized to act on the behalf of the user," but that request needs a Power of
+Attorney document specifically, plus a copy of the account holder's own ID — not just the requestor's.
+
+**What we could not verify:** how long X's deactivation review typically takes, and whether tweets
+remain visible (rather than being taken down) during the period between the death and the account's
+deactivation — the source page describes the request process, not the account's interim visible
+state.
+
+---
+
+## 20. What happens to my Netflix account when I die?
+
+Nothing changes on its own — billing keeps running until someone cancels it, and Netflix's process
+splits cleanly depending on whether you can log in. If you (or whoever's handling the account) have
+the login, Netflix's guidance is simple: sign in and "Click the Cancel Membership link on the Account
+page," the same as canceling for any other reason.
+[Source](https://help.netflix.com/en/node/110165)
+
+Without login access, Netflix asks you to gather the email address or phone number tied to the
+account and the payment method currently used to pay for it, then contact Netflix support directly so
+an agent can process the cancellation. Netflix's help article does not describe a separate, formal
+"deceased member" documentation process (no mention of a death certificate requirement on this
+particular page) — the mechanism described is closer to a standard account-recovery-and-cancel
+flow than the death-certificate-and-court-order process PayPal, Venmo, and LinkedIn use.
+
+Netflix does not describe transferring the account, its viewing history, or "My List" to another
+person; the described outcome is cancellation, full stop.
+
+**What we could not verify:** whether Netflix has a separate, more formal bereavement process beyond
+what this specific help article describes (some other platforms maintain two tiers — self-service and
+a documented estate process — and Netflix's public documentation on this exact scenario is thinner
+than PayPal's, Venmo's, or LinkedIn's). If a death certificate or estate paperwork is required in
+practice for accounts you can't access at all, that requirement isn't stated on the page we could
+retrieve.
+
+---
+
+## 21. What happens to my Dropbox files when I die?
+
+By default, nothing — the account and its files simply sit there, still billed if it's a paid plan,
+until someone acts. Dropbox's first suggestion, if you're looking for a deceased person's files, is
+low-tech: "look in the Dropbox folder on the person's computer if you can" — a locally-synced Dropbox
+folder is often the fastest way in, with no request process at all.
+
+For a formal request to Dropbox itself, the bar is high. Dropbox's help page requires proof of two
+separate things: "The person is in fact deceased," and "You have a legal right to access the person's
+files under all applicable laws." The specific document Dropbox asks for is "a valid court order
+establishing that it was the deceased person's intent that you have access to the files in their
+account after the person passed away, and that Dropbox is compelled by law to provide the deceased
+person's files to you."
+[Source](https://help.dropbox.com/account-settings/access-account-of-someone-who-passed-away)
+
+That's a notably narrower bar than a generic death certificate plus letters of administration —
+Dropbox is explicitly asking for a court order that speaks to *intent* and *compulsion*, not just
+proof that you're the legally appointed executor in general. Even then, Dropbox is not promising
+success: "we can't guarantee that we'll be able to provide access," and the review "can take some
+time."
+
+**What we could not verify:** whether a standard letter of administration/executorship (without
+language specifically about the Dropbox files) has, in practice, ever satisfied this requirement —
+the help page's wording suggests it wants something more specific than the general-purpose estate
+paperwork that satisfies PayPal, Venmo, or Kraken.
+
+---
+
+## 22. Can I leave my Steam or Xbox game library to someone when I die?
+
+No — on both platforms, what you have is a personal, non-transferable license, not property, and
+both companies' own agreements say so directly.
+
+Valve's Steam Subscriber Agreement states: "Subscriptions are not transferable, and even if your
+access to a Subscription for a particular game or application is terminated, the original activation
+key will not be able to be registered to any other account, even if the Subscription was obtained in
+a retail store." The same agreement lets you cancel your own account at any time, but explicitly
+warns that doing so "will not entitle you to any refund."
+[Source](https://store.steampowered.com/subscriber_agreement/)
+
+Microsoft's rules for Xbox and other digital purchases are just as direct: "Except as may be
+permitted below, you may not transfer or resell any licenses to any Digital Goods," and if you sell a
+device that has digital content on it, "the purchaser will not acquire any right to use the Digital
+Goods."
+[Source](https://support.microsoft.com/en-us/windows/apps/usage-rules-for-digital-goods-rules)
+
+In practice, this means a game library — however large or expensive — isn't something a will can
+leave to anyone, because there's no ownership to transfer in the first place; the license was
+personal to the account, and ends with it (or simply sits inaccessible if no one ever closes the
+account). The one narrow workaround Microsoft documents elsewhere is Xbox's "Home Xbox" console
+sharing feature, which lets a second person play games tied to your account from a shared console —
+but that's account access continuing to work because credentials or a linked device are shared, not a
+transfer of ownership the license itself recognizes.
+
+**What we could not verify:** PlayStation's equivalent terms — this pass checked Steam and Microsoft
+only; do not assume PlayStation's policy is identical without checking Sony's own agreement directly.
+
+---
+
+## 23. What happens to a domain name I own when I die?
+
+A registered domain doesn't expire or transfer on its own — it keeps renewing on the payment method
+on file until it lapses, and getting it moved to someone else requires going through the registrar's
+own estate-access process. GoDaddy's, as the largest registrar, is representative and fully
+documented: "To access a domain or an account after the death of the account holder, you must be the
+**Estate Administrator** of the deceased."
+[Source](https://www.godaddy.com/help/how-to-gain-access-to-domains-or-accounts-after-account-holders-death-8356)
+
+GoDaddy requires four specific items submitted together, warning that "your request will not be
+considered" without all four: a completed "Regain Access To My Account" form naming the Estate
+Administrator as requestor; legal documentation naming that Estate Administrator; a copy of the death
+certificate; and government-issued photo ID for the requestor, which must be "a color copy, scan or
+digital picture containing the pictured person, name, signature and expiration date clearly
+identifiable." GoDaddy states it allows up to 72 hours just for the initial correspondence back.
+
+The practical risk isn't usually the transfer process itself — it's discovery and lapse. If nobody
+knows a domain exists, or the card on file gets closed when the estate's other accounts are settled,
+the domain can simply expire and become available for anyone else to register, taking down whatever
+site or email address depended on it (a website, or an email address like `name@theirdomain.com` that
+other accounts use for password resets).
+
+**What we could not verify:** Namecheap's or other major registrars' specific deceased-owner process
+— this pass confirmed GoDaddy's documented procedure only; other registrars' requirements may differ
+in the specific documents demanded.
+
+---
+
+## 24. Is it a crime for my family to log into my accounts with my password after I die?
+
+**This is general information, not legal advice — the answer genuinely depends on your state and the
+specifics, and you should not treat this as a green light or a red light without asking an
+attorney.**
+
+The federal law in play is the Computer Fraud and Abuse Act (CFAA), 18 U.S.C. § 1030. Its core
+language criminalizes anyone who "intentionally accesses a computer without authorization or exceeds
+authorized access, and thereby obtains... information from any protected computer" — and courts have
+read "protected computer" broadly enough to cover essentially any computer connected to the internet,
+which includes the servers behind any online account.
+[Source](https://www.law.cornell.edu/uscode/text/18/1030)
+
+The open legal question is what "without authorization" means once the account holder has died and a
+platform's own terms of service (which every major platform bans password-sharing under) are the only
+thing defining "authorized." This is exactly the ambiguity Q7 in our first batch flagged and did not
+resolve: RUFADAA creates a lawful, formal *request* process aimed at the company, but simply typing in
+a known password is a different act entirely, and neither RUFADAA nor the CFAA's text directly says
+whether a grieving family member logging in with a password the deceased shared while alive commits a
+federal crime. In practice, prosecutions of family members for this specific scenario appear to be
+essentially unheard of — but "unheard of" is not the same as "not technically a violation," and the
+honest answer is that this is unsettled at the intersection of two different bodies of law.
+
+**What we could not verify:** any case where a family member was actually prosecuted, under the CFAA
+or a state computer-crime statute, specifically for logging into a deceased relative's account with a
+password the deceased had given them. We looked; we did not find one. That absence of prosecutions is
+not proof the underlying legal risk doesn't exist.
+
+---
+
+## 25. Does listing my passwords in my will make them public record?
+
+Largely yes for the will itself, but the answer has a real exception worth knowing, and it varies by
+state. **This is general information, not legal advice.**
+
+The general rule across U.S. states is that once a will is submitted to a probate court to open an
+estate, it becomes part of that court's case file, and probate case files are public court records —
+open to inspection by anyone, not just heirs or beneficiaries, typically for a modest copying fee at
+the courthouse or, increasingly, online. That means a password physically written into the body of a
+will is exposed to the same public-records access as every other sentence in it, permanently, the
+moment the will is filed.
+
+There is a real carve-out worth naming, and it shows how much this varies by state: Florida
+specifically amended its probate code so that a different document — the **inventory** of estate
+assets a personal representative files — is *not* public. Florida Statute §733.604 states: "Any
+inventory of an estate, whether initial, amended, or supplementary, filed with the clerk of the court
+in conjunction with the administration of an estate is confidential and exempt from" the state's
+general public-records law and constitutional open-records provision.
+[Source](http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0733/Sections/0733.604.html)
+That confidentiality only covers the inventory and accountings, though — not the will itself, which
+Florida's statute does not exempt from public access.
+
+The practical takeaway: a will is not the place to write a password down, in any state, because the
+document's core legal purpose (getting probated, becoming part of a public court record) is in direct
+tension with keeping a secret. A separate, non-probate document — a letter of instruction referenced
+by, but not filed as part of, the will — is the standard workaround, but we did not verify that
+practice against every state's rules.
+
+**What we could not verify:** whether every RUFADAA-enacting state treats the *will itself* as public
+in exactly the same way once probated — we confirmed the general rule and Florida's specific inventory
+exemption, not all fifty states' variations.
+
+---
+
+## 26. What happens to crypto I hold on an exchange like Coinbase or Kraken when I die?
+
+This directly answers what our first batch (Q9) explicitly flagged as unverified: at the time, both
+Coinbase's and Kraken's deceased-account pages returned bot-protection pages to every fetch attempt.
+This pass got through to Kraken's.
+
+**Kraken** runs a documented "Deceased Client Account Claims" process. Per Kraken's own support
+article: "While Kraken doesn't currently offer the option to add a beneficiary to an account, we do
+have a process to support families and legal representatives." The required documents are specific
+and stricter than most platforms in this set: "Death Certificate: Complete color image of the
+official document. Note that **certificates issued by funeral homes are not accepted**," plus "Legal
+Documentation" confirming appointment as legal representative (probate or letters of administration),
+a color photo ID of that representative, and a signed, dated letter from the representative confirming
+the death and their role. Kraken's Compliance team reviews the claim once submitted, and states
+"additional documents may be required."
+[Source](https://support.kraken.com/articles/deceased-client-account-claims)
+
+The funeral-home-certificate exclusion is a genuinely useful, specific detail: a family that gets a
+short-form or funeral-home-issued death certificate (common, and often the first document families
+obtain) may need to separately request the official government-issued long-form certificate before
+Kraken will act.
+
+**Coinbase's equivalent page remains unverifiable in this research pass** — it returned a
+bot-protection challenge to every automated fetch attempt (curl with a browser user agent, and a
+rendering fetch tool), the same result our first batch got. We are not describing Coinbase's process
+because we could not read it ourselves. If you hold crypto on Coinbase, check
+`help.coinbase.com` directly or contact their support rather than assuming Kraken's process applies.
+
+**What we could not verify:** Coinbase's actual documented procedure — genuinely unresolved across two
+separate research passes now.
+
+---
+
+## 27. What happens to my airline miles and hotel points when I die?
+
+The starting legal position at every major U.S. airline is the same, and it's blunter than most
+people expect: miles are not your property, and the airline's terms say so explicitly. Delta's
+Membership Guide and Program Rules state: "Miles are not the property of any Member," and, "except as
+specifically authorized in the Membership Guide and Program Rules or otherwise in writing by an
+officer of Delta, miles may not be sold, attached, seized, levied upon, pledged, or transferred under
+any circumstances, including, without limitation, by operation of law, **upon death**." The same
+document lists "A Member is deceased" as one of the conditions under which Delta will simply close the
+account, at which point "Medallion Status, benefits, and/or miles in the SkyMiles account will be
+forfeited."
+[Source](https://www.delta.com/us/en/skymiles/program-resources/program-rules)
+
+In practice, though, several airlines exercise discretion families don't expect from that blunt legal
+language. Based on American Airlines' own AAdvantage terms and conditions (confirmed via a
+search-engine-indexed excerpt of the terms rather than an independent direct fetch of aa.com in this
+pass — flagged as weaker sourcing below), AAdvantage miles likewise "do not constitute property of an
+AAdvantage member or their estate" and are "not transferable upon death" as a matter of right — but
+American reserves the right to make a one-time discretionary transfer to a named person upon
+submission of a death certificate and an affidavit, within one year of the death.
+
+The pattern across airlines and hotel programs generally: **nothing is owed to your family by
+contract**, but many programs will do a one-time discretionary transfer if asked promptly, with a
+death certificate and estate paperwork. Ask the program directly rather than assuming either outcome.
+
+**What we could not verify:** American Airlines' terms and conditions page (aa.com) blocked every
+direct automated fetch attempt in this pass; the AAdvantage quotes above come from a search engine's
+indexed excerpt of that page, not text we retrieved and read ourselves — treat the exact AAdvantage
+wording as secondary-sourced, unlike the Delta quote, which we fetched and read directly. We also did
+not check any hotel loyalty program (Marriott Bonvoy, Hilton Honors, etc.) in this pass.
+
+---
+
+## 28. What happens to my bank account when I die — and what about the 2FA code that goes to a phone no one can unlock?
+
+The 2FA problem resolves itself, but not the way people expect: an executor is never meant to log in
+as the deceased at all, so the two-factor code on a locked phone is a non-issue by design, not
+something that gets bypassed.
+
+Bank of America's own description of what it does on notification of a customer's death makes this
+explicit. Among the "protective actions" it lists: "Suspending Online and Mobile Banking user ID and
+Telephone Banking, including Bill Pay." The bank locks online access down, rather than leaving it open
+for a family member to attempt.
+[Source](https://www.bankofamerica.com/signature-services/estate-services/) Instead, the whole process
+moves to a documentation-based estate-servicing track: a case is opened, and the bank asks for a
+"Photocopy of the death certificate" (a certified copy in some cases), plus court-issued authority —
+"Letters of Testamentary, Letters of Administration or Certification of Appointment" — or, for
+smaller estates, a state-compliant small-estate affidavit. Other actions taken automatically on
+notice: debit/ATM cards are closed, authorized users removed, autopay and recurring transfers
+canceled, and most fees suspended.
+
+What happens to the money itself depends on how the account was titled — the CFPB is direct about
+joint accounts specifically: "When one account owner dies, the money passes to the surviving owner, or
+equally to the rest of the owners if there are multiple people on the account," unless the account is
+held as "tenants in common," in which case "that person's share of the account passes to their heirs."
+[Source](https://www.consumerfinance.gov/ask-cfpb/what-happens-if-i-have-a-joint-bank-account-with-someone-who-died-en-1101/)
+A sole-owner account with no joint holder or payable-on-death beneficiary instead becomes part of the
+probate estate, released to the executor once the bank has the documentation above.
+
+**What we could not verify:** whether every major bank suspends online access immediately on notice
+the way Bank of America documents — this pass confirmed one bank's stated practice, not an
+industry-wide standard.
+
+---
+
+## 29. What happens to my Amazon account — Kindle books, Prime, everything — when I die?
+
+Amazon will close a deceased customer's account for an authorized representative of the estate, and
+its own help page is unusually direct about the consequence: closing it deletes everything, including
+purchased content. Per Amazon's Bereavement Support page: "we are only able to share account
+information or take actions in relation to an account when the request comes from the authorized
+person of the customer's estate." If the requestor doesn't have the account login, Amazon asks for "a
+copy of the death certificate, official certified documentation showing that you are the authorized
+person to access the account, a valid photographic ID," and the account's associated email address
+(or enough order/charge information to locate it if the email isn't known).
+[Source: Amazon Bereavement Support, retrieved via Wayback Machine snapshot dated 22 January
+2025](http://web.archive.org/web/20250122221621/https://www.amazon.com/gp/help/customer/display.html%3FnodeId%3DTzcJJiVFnIi3pG2yDA)
+(Amazon's live help pages actively blocked every direct automated fetch attempt in this research
+pass, including a browser-user-agent `curl` request and a rendering fetch tool; this is the most
+recent copy we could actually read.)
+
+The critical line, worth reading twice if you have a large Kindle library: "Once the account is
+closed all of the products and services accessed through that account will no longer be available
+across any Amazon sites globally. These products and services include any content such as **photos,
+music, Prime, and books that will also be deleted**." Amazon does not describe any mechanism for
+transferring a Kindle library, Prime membership, or Amazon Photos to another account — closure is
+final and content-destructive, not a handoff.
+
+**What we could not verify:** whether Amazon's policy or process has changed since the January 2025
+snapshot we relied on, since Amazon's current live page would not load for us in this pass. Treat the
+quotes above as accurate as of that date, not necessarily today.
+
+---
+
+## 30. What happens to my Spotify account when I die?
+
+Unlike every other platform in this batch, we could not find a dedicated, official Spotify help
+article describing a deceased-account process at all — and we looked hard, including direct URL
+guesses, site-restricted searches, and checking Spotify's general support portal
+([support.spotify.com](https://support.spotify.com/us/)) for any death-specific policy page. None of
+it surfaced one. What we found instead were dozens of Spotify Community forum threads (user posts, not
+official policy) of family members asking how to cancel a deceased relative's Premium subscription,
+which is itself informative: it suggests Spotify handles these requests case-by-case through general
+customer support rather than via a published, documented process the way PayPal, Venmo, LinkedIn, and
+Amazon do.
+
+What we can say with confidence, because it follows from how any subscription works and not from a
+Spotify-specific policy: nothing stops automatically. A Spotify Premium subscription is a standing
+charge against a card, and it keeps billing until either the card stops working or someone actively
+cancels it — the same mechanic covered in our first batch's Q10. If you have login access, canceling
+through Account Settings works the same as canceling for any other reason. If you don't, your only
+documented option is contacting Spotify support directly and being prepared to prove the death and
+your relationship to the account holder, since there is no self-service path without the login.
+
+**What we could not verify — and this is a genuine gap, not a formality:** we found no primary,
+official Spotify source describing what documentation Spotify actually requires for a no-login
+deceased-account request, what happens to playlists or saved music, or whether Spotify will ever close
+an account versus only cancel the paid subscription and let it revert to a free tier. If you're
+handling this, contact Spotify support directly and do not assume any of the process other platforms
+in this batch use (death certificate, executor letters) applies — we have no evidence either way.
+
 ---
 
 ## How this was checked, and what that is worth
@@ -577,3 +1032,73 @@ materials; the log is
 [here](https://github.com/cairnvault/digital-legacy-teardown#corrections).
 
 *Vendor terms and state statutes change. Re-verify before relying on any of this. Not legal advice.*
+
+---
+
+### Batch 2 (questions 16–30), checked 6–7 August 2026
+, and what that is worth
+
+Claims were verified by fetching the vendor's own page directly (a plain request with a standard
+browser user agent, since several of these sites block requests with no user agent at all), falling
+back to a rendering fetch tool where a page needed JavaScript-rendered content assembled first, and to
+the Internet Archive's Wayback Machine only where a live page could not be retrieved at all in this
+pass (used for X/Twitter — a snapshot from the day before this research, essentially current — and for
+Amazon, where the only retrievable snapshot is from January 2025, flagged accordingly in that answer).
+
+Every gap is disclosed inline rather than smoothed over: **Coinbase's** deceased-account page could
+not be retrieved by any method tried (matching the result from our first batch); **American Airlines'**
+aa.com blocked every direct fetch, so that answer's specific quotes come from a search engine's
+indexed excerpt rather than a page we read ourselves; **Spotify** appears not to publish a dedicated
+policy at all, which we treat as a finding, not a failure; and **Amazon's** current live help pages
+would not load for us, so that answer relies on an archived copy that may be out of date.
+
+**No claim in this batch contradicts anything in the first 15 questions or the companion teardown.**
+If anything, this batch's findings are consistent with and reinforce the earlier pattern: every
+platform checked here draws the same hard line the first batch found on Google, Apple, and Facebook —
+broad willingness to close an account or disburse funds to a documented executor, and zero willingness
+anywhere to hand over a password or login session, no matter how complete the paperwork is.
+
+**Everything here is [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**, matching the license
+of the first batch.
+
+*Vendor terms and state statutes change. Re-verify before relying on any of this. Not legal advice.*
+
+---
+
+## Verification status
+
+| # | Question | Status | Notes |
+|---|---|---|---|
+| 16 | PayPal account | **VERIFIED** | Primary source fetched and quoted directly. |
+| 17 | Venmo account | **VERIFIED** | Primary source fetched and quoted directly. |
+| 18 | LinkedIn profile | **VERIFIED** | Primary source fetched and quoted directly. |
+| 19 | X (Twitter) account | **VERIFIED** | Fetched via a same-day/next-day Wayback Machine snapshot; text extracted directly, not summarized. |
+| 20 | Netflix account | **PARTIAL** | Primary source fetched, but the page describes a lighter process than other platforms and may not be the complete/formal policy. |
+| 21 | Dropbox files | **VERIFIED** | Primary source fetched and quoted directly. |
+| 22 | Steam / Xbox game library | **VERIFIED** | Two independent primary sources (Valve, Microsoft) fetched and quoted directly. |
+| 23 | Domain name (GoDaddy) | **VERIFIED** | Primary source fetched and quoted directly. Other registrars not checked. |
+| 24 | CFAA / is it a crime | **VERIFIED (statute)** / open legal question | Statute text fetched and quoted directly; the *application* of the statute to this exact scenario is honestly unresolved, and the answer says so. |
+| 25 | Will = public record | **VERIFIED (Florida exception)** / general rule not independently confirmed state-by-state | Florida statute fetched and quoted directly; the general "wills become public in probate" rule is standard legal consensus but not fetched from a single authoritative primary source covering all states. |
+| 26 | Crypto exchange (Kraken/Coinbase) | **VERIFIED (Kraken only)** | Kraken primary source fetched and quoted directly. Coinbase: **UNVERIFIED**, blocked. |
+| 27 | Airline miles | **PARTIAL** | Delta: VERIFIED, primary source fetched directly. American Airlines: quotes from a search-engine excerpt only, not independently fetched — weaker sourcing, flagged in the answer. |
+| 28 | Bank account + 2FA | **VERIFIED** | Two primary sources (Bank of America, CFPB) fetched and quoted directly. Only one bank checked. |
+| 29 | Amazon account | **PARTIAL** | Content fetched and quoted directly, but only via a January 2025 Wayback Machine snapshot — live page unreachable, so currency is not confirmed. |
+| 30 | Spotify account | **UNVERIFIED** | No official dedicated policy page found despite active searching; the answer reports this absence as the finding. |
+
+## Could not verify
+
+- **Coinbase's** deceased-account procedure (Q26) — blocked on every fetch attempt, in both this
+  research pass and the first batch's. This is now confirmed unverifiable across two independent
+  attempts, not just a one-off block.
+- **American Airlines'** exact AAdvantage terms language (Q27) — aa.com blocked direct fetching;
+  only a search-engine-indexed excerpt was available.
+- **Amazon's current, live** bereavement-support policy (Q29) — the only readable version is a
+  January 2025 archive snapshot; we could not confirm it still reflects Amazon's policy today.
+- **Spotify's** deceased-account documentation (Q30) — appears not to exist as a published policy at
+  all; treated as a reportable finding rather than a fetch failure.
+- **PlayStation's** license-transfer terms (Q22) — not checked in this pass; do not assume it matches
+  Steam's or Xbox's stated policy.
+- Any registrar besides **GoDaddy** (Q23) — Namecheap and others not checked.
+- Any bank besides **Bank of America** (Q28) — practices may not be industry-standard.
+- **Netflix's** formal/documented process, if one exists beyond the lighter self-service-oriented page
+  found (Q20) — flagged PARTIAL rather than VERIFIED for this reason.
